@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survey Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Description of form</p>
+        <form id="survey-form" action="">
+            <label id="name-label" for="name">*Name: </label>
+            <input id="name" type="text" required>
+            <label id="email-label" for="email">*Email: </label>
+            <input id="email" type="email" required>
+            <label id="number-label" for="number">Number: </label>
+            <input id="number" type="number">
+            <label id="dropdown-label" for="dropdown">Dropdown: </label>
+            <select id="dropdown">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <label id="radio-options-label" for="radio-options">Radio Options: </label>
+            <input value="R1" name="radio-options" type="radio">R1
+            <input value="R2" name="radio-options" type="radio">R2
+            <input value="R3" name="radio-options" type="radio">R3
+            <label id="checkbox-options-label" for="checkbox-options">Checkbox Options: </label>
+            <input value="C1" name="checkbox-options" type="checkbox">C1
+            <input value="C2" name="checkbox-options" type="checkbox">C2
+            <input value="C3" name="checkbox-options" type="checkbox">C3
+            <label id="additional-comments" for="additional-comments"></label>
+            <textarea id="additional-comments" id="additional-comments" cols="30" rows="10"></textarea>
+            <input type="submit">
+        </form>
+    </body>
+</html>
