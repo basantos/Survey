@@ -1,0 +1,26 @@
+main {
+    text-align: center;
+}
+
+.form-row {
+    width: 100%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column {
+    width: 47.5%;
+    text-align: right;
+}
+
+.right-column {
+    margin-left: 5%;
+}
