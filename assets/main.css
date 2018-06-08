@@ -66,7 +66,7 @@ textarea {
     color: rgb(47, 79, 79);
 }
 
-#submit-btn {
+#submit {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(47, 79, 79);
     margin-top: 5px;
@@ -76,14 +76,14 @@ textarea {
     border-radius: 5px;
 }
 
-#submit-btn:hover {
+#submit:hover {
     cursor: pointer;
     color: white;
     background-color: rgb(96, 134, 134);
     border: 1px solid rgb(96, 134, 134);
 }
 
-#submit-btn:active {
+#submit:active {
     background-color: rgb(195, 212, 212);
     border: 1px solid rgb(195, 212, 212);
 }
